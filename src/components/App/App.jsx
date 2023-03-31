@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { axiosImg } from 'services/pixabayApi';
+import { axiosImg } from 'services/pixabayapi';
 import { Searchbar } from 'components/Searchbar/Searchbar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
 import Button from 'components/Button/Button';
