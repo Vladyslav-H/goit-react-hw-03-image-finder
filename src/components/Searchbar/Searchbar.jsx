@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import PropTypes from 'prop-types';
 import { Header, ButtonStyled, InputStyled } from './Searchbar.styled';
@@ -37,8 +37,10 @@ export class Searchbar extends Component {
             onChange={this.handleChange}
           />
           <ButtonStyled type="submit">
-            <span style={{marginRight: '10px'}}>Search </span>
-           <span> <BiSearchAlt /></span>
+            <span style={{ marginRight: '10px' }}>Search </span>
+            <span>
+              <BiSearchAlt />
+            </span>
           </ButtonStyled>
         </form>
       </Header>
