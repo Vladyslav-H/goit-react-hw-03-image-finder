@@ -12,5 +12,6 @@ export const ImageGalleryList = styled.ul`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
+  margin-top: 120px;
 }
-`
+`;

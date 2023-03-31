@@ -17,7 +17,7 @@ export const Header = styled.header`
   background-image: repeating-radial-gradient(
     circle at top,
     RGBA(255, 213, 49, 0.67),
-    #059cff 800px
+    #059cff 900px
   );
 `;
 

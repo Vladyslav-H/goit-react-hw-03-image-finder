@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const GalleryItem = styled.li`
- border-radius: 4px;
+  border-radius: 4px;
   background-color: rgb(164, 164, 164);
   box-shadow: -7px 5px 14px 1px rgba(0, 0, 0, 0.79);
 `;

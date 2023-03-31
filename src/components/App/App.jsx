@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import { axiosImg } from 'services/pixabayapi';
+import { axiosImg } from 'services/pixabayApi';
 import { Searchbar } from 'components/Searchbar/Searchbar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
 import Button from 'components/Button/Button';
@@ -23,12 +23,14 @@ export class App extends Component {
   changePage = () => {
     this.setState(prev => ({ page: prev.page + 1 }));
   };
-
+  //  getSnapshotBeforeUpdate() {
+  //       return document.body.clientHeight;
+  //   }
   componentDidUpdate(prevProps, prevState, snapshot) {
-    window.scrollTo({
-      top: snapshot,
-      behavior: 'smooth',
-    });
+    // window.scrollTo({
+    //   top: snapshot,
+    //   behavior: 'smooth',
+    // });
     const { searchName, page } = this.state;
 
     if (
@@ -38,10 +40,7 @@ export class App extends Component {
       this.setImages();
     }
   }
-  getSnapshotBeforeUpdate() {
-  
-    return document.body.clientHeight;
-  }
+
   setImages = async () => {
     const { searchName, page } = this.state;
 

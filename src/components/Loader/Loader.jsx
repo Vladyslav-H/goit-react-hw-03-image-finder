@@ -11,8 +11,7 @@ const Loader = () => {
       wrapperClass={{}}
       wrapperStyle={{
         justifyContent: 'center',
-        marginTop: '30vh',
-
+        marginTop: '50vh',
       }}
       visible={true}
     />
