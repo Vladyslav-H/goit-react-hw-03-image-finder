@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const ButtonStyled = styled.button`
+  min-width: 180px;
   padding: 8px 16px;
   border-radius: 4px;
   background-color: #3f51b5;
@@ -16,7 +17,7 @@ export const ButtonStyled = styled.button`
   line-height: 24px;
   font-style: normal;
   font-weight: 500;
-  min-width: 180px;
+
   box-shadow: 3px 5px 24px -9px rgba(0, 0, 0, 0.75);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
