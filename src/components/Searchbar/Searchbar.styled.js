@@ -5,12 +5,12 @@ export const Header = styled.header`
   position: fixed;
   top: 0;
   width: 100%;
+  height: 100px;
   border: transparent;
   align-items: center;
   display: flex;
   justify-content: center;
   gap: 10px;
-  height: 100px;
   background-color: aquamarine;
   box-shadow: 0px 15px 24px -9px rgba(0, 0, 0, 0.75);
 
